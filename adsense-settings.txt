@@ -1,0 +1,23 @@
+Guidora Tools AdSense Settings
+
+File yang perlu diedit:
+assets/ads-config.js
+
+Langkah cepat:
+1. Buka assets/ads-config.js
+2. Ubah enabled menjadi true
+3. Ubah testMode menjadi false
+4. Ganti publisherId dengan ID AdSense Anda
+5. Isi slotId untuk setiap posisi iklan
+6. Upload ulang ke GitHub Pages
+
+Posisi iklan:
+- homeTop: setelah hero homepage
+- homeMiddle: antara kategori dan katalog tools
+- homeBottom: bawah area tools homepage
+- catalogInline: sela katalog tools
+- toolTop: atas setiap tool
+- toolMiddle: tengah setiap tool
+- toolBottom: bawah setiap tool
+
+Backlink guidora.my.id tetap aktif otomatis di footer.
